@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+enum zile{Luni, Marti, Miercuri, Joi, Vineri, Sambata, Duminica};
+
+void afiseaza(enum zile n){
+
+switch(n){
+case Luni:printf("Luni");
+break;
+case Marti:printf("Marti");
+break;
+case Miercuri:printf("Miercuri");
+break;
+case Joi:printf("Joi");
+break;
+case Vineri:printf("Vineri");
+break;
+case Sambata:printf("Sambata");
+break;
+case Duminica:printf("Duminica");
+break;
+}}
+int main()
+{
+int n;
+printf("Introduceti un numar intre 1 si 7: ");
+scanf("%d",&n);
+afiseaza(n);
+    return 0;
+}
